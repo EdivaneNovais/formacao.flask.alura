@@ -104,30 +104,3 @@ Fizemos uma rota de logout também para podermos esquecer essa informação de u
 **Como controlar múltiplos usuários.**
 
 
-Fizemos uma rota de logout também para podermos esquecer essa informação de usuário quando é interessante que esqueçamos, e fizemos algumas alterações nos HTMLs, o HTML de login que criamos também nessa aula, e adicionamos esse código para ser possível a mensagem, um código recomendado pela própria documentação para utilizarmos, e fizemos essa alteração também no template.
-
-
-#O que foi realizado:
-
-**Como definir as primeiras rotas da aplicação através do @app.route.**
-**Como integrar linguagem Python e HTML através do Flask e começar a utilizar os nossos primeiros templates de #estruturação da aplicação.**
-**Como inicializar, pela primeira vez, uma aplicação feita em Flask através do app = Flask(__name__).**
-**Como adicionar conteúdos dinâmicos através do delimitadores do Jinja2.**
-**Como pegar dados do servidor.**
-**Como mostrar os atributos na view.Como criar itens para nossa aplicação através do formulário do navegador.**
-**Como montar formulários e capturar suas informações utilizando o Flask.**
-**O que é e como resolver o método POST no servidor.**
-**Como fazer redirecionamento de páginas através da função redirect().**
-**Como utilizar o bootstrap para estilizar nossa página.**
-**Como reutilizar trechos do template.**
-**Como gerar URLs dinâmicas.**
-**Como fazer redirecionamento de páginas através da função redirect().**
-**Como utilizar o bootstrap para estilizar nossa página.**
-**Como reutilizar trechos do template.**
-**Como gerar URLs dinâmicas.**
-**Como criar a tela de login.**
-**Como guardar os dados da sessão.**
-**Como deslogar a sessão.**
-**Como fazer a proteção de rotas.**
-**Como tornar melhor nosso fluxo de login.**
-**Como controlar múltiplos usuários.**
