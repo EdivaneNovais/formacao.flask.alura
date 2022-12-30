@@ -81,4 +81,3 @@ Fizemos uma rota de logout também para podermos esquecer essa informação de u
 **Como fazer a proteção de rotas.**
 **Como tornar melhor nosso fluxo de login.**
 **Como controlar múltiplos usuários.**
-

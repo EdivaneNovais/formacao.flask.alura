@@ -2,8 +2,6 @@ from flask import render_template, request, redirect, session, flash, url_for
 from jogoteca import app, db
 from models import Jogos, Usuarios
 
-
-
 @app.route('/')
 def index():
     lista = Jogos.query.order_by(Jogos.id)
@@ -60,7 +58,6 @@ def deletar(id):
     flash('Jogo deletado com sucesso!')
     
     return redirect(url_for('index'))
-    
     
 @app.route('/login')
 def login():
