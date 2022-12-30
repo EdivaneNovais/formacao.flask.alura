@@ -13,7 +13,11 @@ O código abaixo para rodar sua aplicação:
 app.run()
 ```
 
+<<<<<<< HEAD
 Foi criado uma pasta chamada templates e em seguida crei um arquivo HTML dentro dela com o conteúdo html (no curso utilizamos o nome lista.html
+=======
+Foi criado uma pasta chamada templates e em seguida crei um arquivo HTML dentro dela com o conteúdo html (no curso utilizamos o nome lista.html).
+>>>>>>> 8788ae4cbc425a7e39f7fb7eced27d3559788179
 
 Utilizei o render_template para mostrar a página criada:
 
@@ -51,8 +55,63 @@ E por final viemos até o “template.html” e vimos que colocar URLs, colocar 
 No caso do projeto da Jogoteca, nós utilizamos um recurso do Flask chamado Flash. Esse recurso funciona com a utilização de cookies do navegador e nos permite mostrar mensagens curtas de forma eficiente na interface da nossa aplicação.Para poder mostrar a mensagem na nossa página da aplicação é necessário alterar os templates HTML com a adição de um bloco de código já fornecido pela Documentação do Flask:
 
 Criamos três novas rotas ao longo dessa aula, a rota de login que nos dá um formulário que podemos colocar credenciais e fazer o login.
+<<<<<<< HEAD
 
 Colocamos uma rota que é específica só para fazer autenticação desse login, e nessa rota utilizamos o session, sendo um atributo do Flask para guardar certas informações do usuário quando ele está fazendo o login nos cookies do navegador. Ele captura essas informações e nos permite usar mais tarde, como fizemos na mensagem que colocamos também caso o login for bem-sucedido, então colocamos mensagens para interagir mais com usuário quando está usando o site.
+=======
+
+Colocamos uma rota que é específica só para fazer autenticação desse login, e nessa rota utilizamos o session, sendo um atributo do Flask para guardar certas informações do usuário quando ele está fazendo o login nos cookies do navegador. Ele captura essas informações e nos permite usar mais tarde, como fizemos na mensagem que colocamos também caso o login for bem-sucedido, então colocamos mensagens para interagir mais com usuário quando está usando o site.
+
+Fizemos uma rota de logout também para podermos esquecer essa informação de usuário quando é interessante que esqueçamos, e fizemos algumas alterações nos HTMLs, o HTML de login que criamos também nessa aula, e adicionamos esse código para ser possível a mensagem, um código recomendado pela própria documentação para utilizarmos, e fizemos essa alteração também no template.
+
+
+# O que foi realizado:
+
+**Como definir as primeiras rotas da aplicação através do @app.route.**
+
+**Como integrar linguagem Python e HTML através do Flask e começar a utilizar os nossos primeiros templates de #estruturação da aplicação.**
+
+**Como inicializar, pela primeira vez, uma aplicação feita em Flask através do app = Flask(__name__).**
+
+**Como adicionar conteúdos dinâmicos através do delimitadores do Jinja2.**
+
+**Como pegar dados do servidor.**
+
+**Como mostrar os atributos na view.Como criar itens para nossa aplicação através do formulário do navegador.**
+
+**Como montar formulários e capturar suas informações utilizando o Flask.**
+
+**O que é e como resolver o método POST no servidor.**
+
+**Como fazer redirecionamento de páginas através da função redirect().**
+
+**Como utilizar o bootstrap para estilizar nossa página.**
+
+**Como reutilizar trechos do template.**
+
+**Como gerar URLs dinâmicas.**
+
+**Como fazer redirecionamento de páginas através da função redirect().**
+
+**Como utilizar o bootstrap para estilizar nossa página.**
+
+**Como reutilizar trechos do template.**
+
+**Como gerar URLs dinâmicas.**
+
+**Como criar a tela de login.**
+
+**Como guardar os dados da sessão.**
+
+**Como deslogar a sessão.**
+
+**Como fazer a proteção de rotas.**
+
+**Como tornar melhor nosso fluxo de login.**
+
+**Como controlar múltiplos usuários.**
+
+>>>>>>> 8788ae4cbc425a7e39f7fb7eced27d3559788179
 
 Fizemos uma rota de logout também para podermos esquecer essa informação de usuário quando é interessante que esqueçamos, e fizemos algumas alterações nos HTMLs, o HTML de login que criamos também nessa aula, e adicionamos esse código para ser possível a mensagem, um código recomendado pela própria documentação para utilizarmos, e fizemos essa alteração também no template.
 
