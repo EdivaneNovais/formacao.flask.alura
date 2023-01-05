@@ -7,13 +7,13 @@ from flask import Flask
 app = Flask(__name__)
 ```
 
-O código abaixo para rodar sua aplicação:
+O código abaixo para rodar a aplicação:
 
 ```
 app.run()
 ```
 
-Foi criado uma pasta chamada templates e em seguida crei um arquivo HTML dentro dela com o conteúdo html (no curso utilizamos o nome lista.html).
+Foi criado uma pasta chamada templates e em seguida criei um arquivo HTML dentro dela com o conteúdo html (no curso utilizamos o nome lista.html).
 
 Utilizei o render_template para mostrar a página criada:
 
@@ -23,7 +23,7 @@ def ola():
     return render_template('lista.html');
 ```
 
-Com a diretiva do flask para usar um conteúdo dinâmico e modifiquei o título Jogoteca conforme abaixo:
+Com a diretiva do flask para usar um conteúdo dinâmico, modifiquei o título Jogoteca conforme abaixo:
 
 ```
 <h1>{{ titulo }}</h1>
@@ -61,7 +61,7 @@ Fizemos uma rota de logout também para podermos esquecer essa informação de u
 
 **Como definir as primeiras rotas da aplicação através do @app.route.**
 
-**Como integrar linguagem Python e HTML através do Flask e começar a utilizar os nossos primeiros templates de #estruturação da aplicação.**
+**Como integrar linguagem Python e HTML através do Flask e começar a utilizar os nossos primeiros templates de estruturação da aplicação.**
 
 **Como inicializar, pela primeira vez, uma aplicação feita em Flask através do app = Flask(__name__).**
 
@@ -103,4 +103,49 @@ Fizemos uma rota de logout também para podermos esquecer essa informação de u
 
 **Como controlar múltiplos usuários.**
 
+**Entendemos que uma aplicação web deve ser capaz de persistir os dados salvos mesmo depois de reiniciar o servidor e uma forma de fazer isso é por meio da utilização de um banco de dados.**
+
+**Aprendemos o que é um ORM e que sua utilização permite não apenas integrar a aplicação com um banco de dados, mas interagir de maneira mais eficiente com ele.**
+
+**Utilizamos o SQLAlchemy para fazer a comunicação com o banco de dados MySQL, através da criação de models (classes) que representavam cada tabela do banco.**
+
+**Reorganizamos o código da aplicação para tornar o desenvolvimento do projeto mais eficiente.**
+
+**Aprendemos que o CRUD se faz presente em muitas aplicações web e que é um acrônimo às funcionalidades que toda aplicação deveria ter: Create, Read, Upload e Delete.**
+
+**Criamos uma rota de edição para realizar o update de itens no nosso banco de dados a partir do navegador.**
+
+**Criamos uma rota para deletar itens do banco de dados a partir do navegador.**
+
+**Como subir arquivos de imagem para o servidor através da utilização de input do tipo file.**
+
+**Entendemos que a vantagem de armazenar imagens em um diretório da aplicação no servidor está associada ao menor custo no uso de banco de dados.**
+
+**Vimos que existe uma maior vantagem em criarmos nomes personalizados para cada imagem salva no servidor do que utilizar o nome de arquivo fornecido pelo usuário.**
+
+**A utilizar Javascript para aumentar a interatividade da aplicação com o usuário.**
+
+**Ajustamos a rota de edição para permitir a inclusão de capas de jogos para os itens da lista e mostrar a capa padrão caso ainda não exista uma capa cadastrada.**
+
+**Entendemos do que se trata a questão de CACHE do navegador e como contornar o problema através da utilização de um timestamp nos nomes de capa de cada item.**
+
+**Ainda quanto ao CACHE, criamos uma função de deleção de capas de jogos repetidas.**
+
+**Melhorar a interface do código, adicionando botões na página inicial do website que levam para todas as rotas.**
+
+**Adicionar botões de retorno para página inicial em todas as demais rotas.**
+
+**Fazer o download do Flask WTF para implementar a validação dos formulários da aplicação.**
+
+**Criar classes através do Flask WTF que correspondem a cada um dos formulários que temos na aplicação.**
+
+**Alterar as rotas e templates de novo jogo, edição de jogos e login de usuário para funcionar de acordo com o Flask WTF.**
+
+**O que é a quebra de segurança CSRF e como impedi-la utilizando o CSRF Token do Flask WTF.**
+
+**Refatorar os arquivos do projeto para garantir máxima eficiência de desenvolvimento.**
+
+**Ajustar a interface do website para torná-lo o mais amigável o possível à utilização do usuário.**
+
+**Criptografar as senhas cadastradas no banco de dados com o Flask Bcrypt para impedir qualquer possibilidade de vazamento de senhas por acesso indevido ao banco de dados.**
 
